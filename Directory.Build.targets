@@ -1,0 +1,7 @@
+﻿<Project>
+
+  <ItemGroup Condition="$(AssemblyName.EndsWith('.Tests'))">
+    <PackageReference Include="xunit" Version="$(XunitVersion)" />
+  </ItemGroup>
+
+</Project>
